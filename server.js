@@ -20,7 +20,7 @@ const connection = mysql.createConnection({
     database: 'freedbtech_TrabajoFinalCamilaDB'
 });
 
-app.get('/home', (req, res) => res.render('pages/home'))
+app.get('/', (req, res) => res.render('pages/home'))
 app.get('/aboutus', (req, res) => res.render('pages/aboutus'))
 app.get('/shop', (req, res) => res.render('pages/shop'))
 app.get('/contact', (req, res) => res.render('pages/contact'))
