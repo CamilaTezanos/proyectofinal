@@ -1,0 +1,112 @@
+*{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.menucontainer{
+	padding: 0px;
+}
+
+.logo
+{
+	margin-left: 0px;
+	width: 100px;
+}
+
+.menubar1
+{
+	float: left;
+	width: 57%;
+}
+
+.menubar2
+{
+	float: left;
+	width: 43%;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.menu
+{
+	/* margin-left: 500px; */
+	width: 530px;
+}
+
+.logo li
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+.loguito
+{
+	max-width: 500%;
+	max-height: 500%;
+}
+
+.menubar2 > ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #84AEFD;
+  } 
+
+  li a 
+  {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+  }
+
+  li a:hover 
+  {
+	background-color: #6082C2;
+  }
+
+.menu > li
+{
+	display: inline-block;
+}
+
+.audio{
+	float: left;
+	margin-top: 225px;
+	margin-left: 10px;
+}
+
+.main
+{
+	width: 550px;
+	height: 250px;
+	margin-top: 150px;
+	margin-left: 375px;
+	text-align: center;
+	color: 	rgb(212, 127, 87);;
+
+}
+#text
+{
+	font-size: 45px;
+}
+mark { background-color: rgb(243, 185, 158); }
+
+
+.FTcontainer
+{
+	padding: 0px;
+	size:  30%;
+}
+
+.footer
+{
+	max-width: 100%;
+	max-height: 100%;
+}

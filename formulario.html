@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" type="text/css" href="formulario.html">
+
+</head>
+<body>
+  
+        
+        <div class="header">
+          <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+          </div>  
+        </div>
+        
+        <script>
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+          var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+          var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          var scrolled = (winScroll / height) * 100;
+          document.getElementById("myBar").style.width = scrolled + "%";
+        }
+        </script>
+        
+
+        <div class="div1" >
+                <div class="menucontainer">
+                    <div class="menubar1">
+                        <ul class="logo">
+                            <li class="logotype"><img class="loguito" src="C:\Users\camil\Desktop\TEZZA\logo.png"></li>
+                        </ul>
+                    </div>
+                    <div class="menubar2">
+                        <ul class="menu">
+                              <li><a href="home.html">HOME</a> </li> 
+                            <li><a href="shop.html">SHOP</a></li>
+                            <li><a href="aboutus.html">ABOUT US</a></li>
+                            <li><a href="formulario.html">CONTACT US</a></li>
+                        </ul>
+                    </div>
+            </div>
+
+            <table>
+                <tr> <td>
+        <div class="cont" id="">
+        
+             <fieldset>
+                 <h1>CONTACT US </h1>
+                <form class="container" action="mailto:camilatezanosdisla@gmail.com">
+                     <p>Si tienes alguna sugerencia o duda sobre nosotros, llena el siguiente formulario, te responderemos lo más pronto posible. </p>
+        
+                     <label>Nombre</label>
+                    <input type="text" class="form" name="firstname" placeholder="Nombre..." required tabindex="1" autofocus>
+        
+                    <label>Apellido</label>
+                    <input type="text" class="form" name="lastname" placeholder="Apellido..."required tabindex="2">
+                  
+                    <label>E-mail</label>
+                    <input type="text" class="form" name="lastname" placeholder="E-mail..." required type="email" tabindex="3">
+                  
+                    <label>Mensaje</label>
+                    <textarea id="subject" name="subject" placeholder="Escribir aquí..." style="" required tabindex="4"></textarea>
+                
+                    <legend><input type="Submit"  class="Enviar" value="Enviar"></legend><br>
+                </form>
+                </fieldset>
+            </div> </td>
+
+            <td>
+            <div class="mapa">
+                <img class = "mapa" src="C:\Users\camil\Desktop\TEZZA\mapa.png">
+            </td>
+            </tr>
+            </table>
+
+            <footer class="div6">
+                <div class="FTcontainer">
+                        <img class = "footer" src="C:\Users\camil\Desktop\TEZZA\footer.png">
+                    </div>
+              
+            </footer>
+</body>
+</html>

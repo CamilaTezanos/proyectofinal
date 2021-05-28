@@ -1,0 +1,50 @@
+
+        <div class="header">
+            <div class="progress-container">
+              <div class="progress-bar" id="myBar"></div>
+            </div>  
+          </div>
+          
+          <script>
+          window.onscroll = function() {myFunction()};
+          
+          function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+          }
+          </script>
+  
+              <table>
+                  <tr> <td>
+          <div class="cont" id="">
+          
+               <fieldset>
+                   <h1>CONTACT US </h1>
+                  <form class="container" method ="POST" action="/add">
+                       <p>Si tienes alguna sugerencia o duda sobre nosotros, llena el siguiente formulario, te responderemos lo más pronto posible. </p>
+          
+                       <label>Nombre</label>
+                      <input type="text" class="form" name="firstname" placeholder="Nombre..." required tabindex="1" autofocus>
+          
+                      <label>Apellido</label>
+                      <input type="text" class="form" name="lastname" placeholder="Apellido..."required tabindex="2">
+                    
+                      <label>E-mail</label>
+                      <input type="text" class="form" name="email" placeholder="E-mail..." required type="email" tabindex="3">
+                    
+                      <label>Mensaje</label>
+                      <textarea id="subject" name="subject" placeholder="Escribir aquí..." required tabindex="4"></textarea>
+                  
+                      <legend><input type="Submit"  class="Enviar" value="Enviar"></legend><br>
+                  </form>
+                  </fieldset>
+              </div> </td>
+  
+              <td>
+              <div class="mapa">
+                  <img class = "mapa" src="./media/imagenes/mapa.png">
+              </td>
+              </tr>
+              </table>

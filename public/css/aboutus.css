@@ -1,0 +1,536 @@
+*{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div1,.div2,.div3 
+{
+	height: 710px;
+	width: 1250px;
+}
+
+.div4
+{
+	height: 660px;
+}
+
+
+.menucontainer{
+	padding: 0px;
+}
+
+.logo
+{
+	margin-left: -50px;
+	width: 300px;
+	margin-top: -70px;
+}
+
+.menubar1
+{
+	margin-top: 50px;
+	float: right;
+	width: 57%;
+}
+
+.menubar2
+{
+	float: right;
+	width: 43%;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.menu
+{
+	/* margin-left: 500px; */
+	width: 530px;
+}
+
+.logo li{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+.loguito{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.menubar2 > ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #84AEFD;
+  } 
+
+  li a 
+  {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+  }
+
+  li a:hover 
+  {
+	background-color: #6082C2;
+  }
+
+.menu > li
+{
+	display: inline-block;
+}
+
+.dropbtn 
+{
+  background-color: #84AEFD;
+  color: white;
+  padding: 14px 20px;
+  font-size: 23px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown 
+{
+  display: inline-block;
+}
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color:  #84AEFD;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #719EF4(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover 
+{
+	background-color: #B4CEFF
+}
+
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+
+.dropdown:hover .dropbtn 
+{
+  background-color: #6082C2;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	background-color: #f1f1f1;
+  }
+  
+  .progress-container 
+  {
+	width: 100%;
+	height: 8px;
+  }
+  
+  .progress-bar {
+	height: 8px;
+	background: #f0b169;
+	width: 0%;
+  }
+
+  .main
+  {
+	width: 100%;
+	height: 1000px;
+	margin-left: 0px;
+	image-orientation: center;
+	color: white;
+}
+
+.main2
+{
+  width: 100%;
+  height: 1000px;
+  margin-left: 0px;
+  image-orientation: center;
+  color: white;
+}
+
+.main > img{
+	max-width: 100%;
+	/* max-height: 100%; */
+	image-orientation: center;
+	width: 100%;
+	height: 500px;
+	margin-bottom: -50%;
+}
+
+.main2 > img{
+	max-width: 100%;
+	/* max-height: 100%; */
+	image-orientation: center;
+	width: 100%;
+	height: 500px;
+	margin-bottom: -80%;
+}
+
+.main3 > img{
+	max-width: 100%;
+	max-height: 30%;
+	image-orientation: center;
+	margin-top: 10%;
+
+}
+
+.main > p{
+	line-height: 0.2px;
+}
+
+
+.media{
+	float: right;
+	width: 50px;
+	margin-top: -190px;
+}
+
+
+
+.div3{
+	background-color: #506946;
+	width: 100%;
+	height: 50%;
+}
+
+.AUcontainer{
+	padding: 70px;
+}
+
+.AUimg1{
+	width: 50px;
+	float: left;
+	margin-top: 70px;
+	margin-left: 30px;
+}
+
+#AUimg2{
+	width: 100%;
+	height: 100%;
+}
+
+.AUinfo{
+	width: 43%;
+	float: left;
+}
+
+.AUinfo{
+	font-size: 16px;	
+}	
+
+.AUinfo h1{
+	margin: 0;
+	color: rgb(0, 0, 0);
+	margin-top: -20px;
+}
+
+.AUinfo b{
+	font-size: 16px;
+	margin: 0;
+	color: rgb(0, 0, 0);
+}
+
+.AUinfo > p{
+	color: rgb(0, 0, 0);
+	text-align: justify;
+}
+
+
+.CUcontainer{
+	padding: 100px;
+}
+
+.CUinfo{
+	float: left;
+	margin-top: -40px;
+}
+
+
+.CUinfo > i{
+	color: #a9986d;
+}
+
+.CUinfo h1{
+	margin: 0;
+	padding-bottom: 60px;
+}
+
+.CUinfo b{
+	font-size: 18px;
+	text-align: center;
+}
+
+.vid {
+	padding: -100px;
+}
+
+.vid {
+	width: 700px;
+	height: 190px;
+	margin-top: 40px;
+	margin-left: 280px;
+}
+
+
+  .copy{
+  	text-align: right;
+  }
+
+ 
+.up{
+	background-color: #84AEFD;
+	border-radius: 50px;
+	padding: 10px;
+  	width: 80px;
+  	position: fixed;
+	height: 80px;
+	bottom: 50px;
+	right: 50px;
+  }
+
+@media only screen and ( max-width: 1200px) {
+	.div1,.div2,.div3,.div4,.div5,.div6 {
+	width: 100%;
+	}
+
+	.div1{
+		height: 500px;
+	}
+
+	.menubar2{
+		width: 70%;
+	}
+
+	.menubar1{
+	float: left;
+	width: 30%;
+}
+
+.main{
+	width: 30%;
+	height: 32%;
+	margin-left: 37.5%;
+	text-align: center;
+	color: white;
+}
+
+.imagen1
+{
+	object-fit: cover;
+}
+
+.audio{
+	float: left;
+	margin-top: 100px;
+	margin-left: 10px;
+	width: 200px;
+}
+
+.div2{
+	height: 750px;
+}
+
+
+
+.button1{
+  	padding: 15px 32px;
+  	margin-top: 18px;
+  	margin-left: 40px;
+}
+
+.button{
+  	padding: 15px 32px;
+  	margin-left: 40px;
+}
+
+.Mimg{
+	padding: auto;
+	width: 190px;
+	height: 190px;
+	border-style: solid;
+	border-color: black;
+}
+
+.menu{
+	/* margin-left: 500px; */
+	width: 100%;
+}
+
+.div3{
+	height: 1140px;
+}
+
+.slideshow-container{
+	width: 100%;
+}
+
+	.AUinfo{
+		width: 100%;
+	}
+
+	.div4{
+		height: 800px;
+	}
+
+}
+
+@media only screen and ( max-width: 800px){
+	.div1,.div2,.div3,.div4,.div5,.div6 {
+	width: 100%;
+	}
+
+		.div1{
+		height: 550px;
+	}
+
+	.menubar2{
+		width: 100%;
+		font-size: 12px;
+	}
+
+	.dropbtn {
+  		font-size: 12px;
+  		width: 70px;
+  		padding-top: 14px 14px;
+}
+
+	li a {
+	padding: 14px 14px;
+	width: 90px;
+  }
+
+	.menubar1{
+	display: none;
+}
+
+.main{
+	width: 34%;
+	height: 50%;
+	margin-left: 35%;
+	margin-top: 100px;
+}
+
+
+.audio{
+	margin-top: 90px;
+}
+
+.media{
+	width: 50px;
+	margin-top: -200px;
+}
+
+.div2{
+	height: 2000px;
+}
+
+.Mcontainer > h1{
+	font-size: 28px;
+}
+
+.Mcontainer{
+	padding: 100px;
+}
+
+.column {
+	width: 100%;
+  }
+
+.column > p{
+	text-align: center;
+	width: 85%;
+	margin-left: 20px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+.Mimg{
+	padding: auto;
+	width: 250px;
+	height: 250px;
+	border-style: solid;
+	border-color: black;
+	margin-top: 30px;
+}
+
+.button{
+  	text-align: center;
+  	font-size: 15px;
+  	margin-left: 10px;
+}
+
+.button1{
+	margin-left: 10px;
+  	font-size: 15px;
+  	margin-top: 10px;
+}
+
+.div3{
+	height: 1200px;
+}
+
+.slideshow-container{
+	width: 60%;
+	margin-left: -100px;
+}
+
+.AUimg1{
+	width: 60px;
+	float: left;
+	margin-top: 20px;
+	margin-left: auto;
+}
+
+.div4{
+	height: 1310px;
+}
+
+
+
+.vid {
+	width: 100%;
+	position: absolute;
+	right: 0;
+}
+
+}
+.FTcontainer
+{
+	padding: 0px;
+	size:  30%;
+}
+
+.footer
+{
+	max-width: 100%;
+	max-height: 100%;
+}
